@@ -29,6 +29,11 @@ namespace Movies
         /// Gets or sets the IMDB rating of the movie
         /// </summary>
         public float? IMDBRating { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the director of the movie
+        /// </summary>
+        public string Director { get; set; }
 
         /// <summary>
         /// Gets or sets the rotten tomatoes rating of the movie
